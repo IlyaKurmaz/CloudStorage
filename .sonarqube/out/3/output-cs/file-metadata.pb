@@ -1,0 +1,9 @@
+6
+-C:\Projects\CloudStorage.WebAPI\API\Class1.csutf-8U
+LC:\Projects\CloudStorage.WebAPI\API\Controllers\WeatherForecastController.csutf-87
+.C:\Projects\CloudStorage.WebAPI\API\Program.csutf-87
+.C:\Projects\CloudStorage.WebAPI\API\Startup.csutf-8?
+6C:\Projects\CloudStorage.WebAPI\API\WeatherForecast.csutf-8n
+cC:\Projects\CloudStorage.WebAPI\API\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8V
+KC:\Projects\CloudStorage.WebAPI\API\obj\Debug\net5.0\WebAPI.AssemblyInfo.csutf-8i
+^C:\Projects\CloudStorage.WebAPI\API\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.csutf-8

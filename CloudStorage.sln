@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorage.WebAPI", "CloudStorage.WebAPI\CloudStorage.WebAPI.csproj", "{04983F59-B2F4-4282-B2F7-149A1A90FDE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "API\WebAPI.csproj", "{04983F59-B2F4-4282-B2F7-149A1A90FDE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorage.Domain", "CloudStorage.Domain\CloudStorage.Domain.csproj", "{ED69BB0B-F39D-47A5-98AE-97412B45DE05}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Core\Domain.csproj", "{ED69BB0B-F39D-47A5-98AE-97412B45DE05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorage.Infrastructure", "CloudStorage.Infrastructure\CloudStorage.Infrastructure.csproj", "{4DCA6EDC-20C4-4AB4-8722-2F3DE18E6C9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Shared", "Infrastructure\Shared\Infrastructure.Shared.csproj", "{4DCA6EDC-20C4-4AB4-8722-2F3DE18E6C9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorage.Persistance", "CloudStorage.Persistance\CloudStorage.Persistance.csproj", "{DB8AAF54-96BA-4398-9B6B-BB40A647109B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Persistance", "Infrastructure\Persistance\Infrastructure.Persistance.csproj", "{DB8AAF54-96BA-4398-9B6B-BB40A647109B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5BA3B173-FD5A-428B-920D-76DA7A120933}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{674243BC-D090-4E89-980B-162D8945B392}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{C960DA7D-3AF8-4F36-8EBA-D4448E518FA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +42,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04983F59-B2F4-4282-B2F7-149A1A90FDE9} = {C960DA7D-3AF8-4F36-8EBA-D4448E518FA9}
+		{ED69BB0B-F39D-47A5-98AE-97412B45DE05} = {674243BC-D090-4E89-980B-162D8945B392}
+		{4DCA6EDC-20C4-4AB4-8722-2F3DE18E6C9F} = {5BA3B173-FD5A-428B-920D-76DA7A120933}
+		{DB8AAF54-96BA-4398-9B6B-BB40A647109B} = {5BA3B173-FD5A-428B-920D-76DA7A120933}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20503E32-010B-48D4-966F-AC632F839899}
