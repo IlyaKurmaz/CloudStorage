@@ -285,9 +285,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\CloudStorage.WebAPI\\CloudStorage.WebAPI\\CloudStorage.WebAPI.csproj",
-      "projectName": "CloudStorage.WebAPI",
-      "projectPath": "C:\\Projects\\CloudStorage.WebAPI\\CloudStorage.WebAPI\\CloudStorage.WebAPI.csproj",
+      "projectUniqueName": "C:\\Projects\\CloudStorage.WebAPI\\CloudStorage.WebAPI\\WebAPI.csproj",
+      "projectName": "WebAPI",
+      "projectPath": "C:\\Projects\\CloudStorage.WebAPI\\CloudStorage.WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\ПК\\.nuget\\packages\\",
       "outputPath": "C:\\Projects\\CloudStorage.WebAPI\\CloudStorage.WebAPI\\obj\\",
       "projectStyle": "PackageReference",

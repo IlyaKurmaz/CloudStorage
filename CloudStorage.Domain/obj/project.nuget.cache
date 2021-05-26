@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GYbBPRF8H+CAtAaZS1uVYvD+8ocMJmEs+SVy3kFApCHXdmBbztlqkYV/OpEAcAOTvGCfLVYW5UT3y+ggwufhBg==",
+  "dgSpecHash": "yTUd6fLSOSMDcwaDBNjbrOp0wal6H9Yxdt4VkXmISqE5anXSpM3ciHz6kMUg2D9HHnZ3H34ZaronhgWYlEIaCQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\CloudStorage.WebAPI\\CloudStorage.Domain\\CloudStorage.Domain.csproj",
+  "projectFilePath": "C:\\Projects\\CloudStorage.WebAPI\\CloudStorage.Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
